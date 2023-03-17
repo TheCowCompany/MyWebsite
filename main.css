@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(143, 133, 170);
+    color: rgb(201, 230, 12);
+}
+.apples {
+    border: 8px double rgb(91, 48, 8);
+    border-radius: 30px;
+    background-color: rgb(126, 72, 13);
+    height: 60px;
+    width: 60%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.oranges {
+    margin-left: 80%;
+    margin-top: 2%;
+}
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 1310px;
+}
