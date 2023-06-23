@@ -1,0 +1,47 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(28, 187, 76);
+    color: rgb(201, 230, 12);
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 2%;
+}
+
+.button-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+button {
+    border: 8px double rgb(203, 206, 24);
+    border-radius: 30px;
+    background-color: rgb(216, 124, 32);
+    height: 60px;
+    width: 30%;
+    text-align: center;
+    margin: 2%;
+}
+
+#muteButton {
+    border: 0px double rgb(203, 206, 24);
+    background-color: rgb(28, 187, 76);
+    height: 120;
+    width: 5%;
+    text-align: center;
+    font-size: 60px;
+    position: absolute;
+    top: 0%;
+    left: 90%;
+}
