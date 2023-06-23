@@ -34,6 +34,10 @@ button {
     margin: 2%;
 }
 
+#backButton {
+    width: 10%;
+}
+
 #muteButton {
     border: 0px double rgb(203, 206, 24);
     background-color: rgb(28, 187, 76);
