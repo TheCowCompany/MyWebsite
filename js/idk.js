@@ -7,6 +7,11 @@ function loadHTMLFile(file) {
           document.write(xhr.responseText);
           document.close();
       }
-  };
+  }; 
   xhr.send();
+}
+
+function prompt() {
+  let name = 
+  alert("Hello " + name + "!");
 }
